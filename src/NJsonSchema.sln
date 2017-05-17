@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJsonSchema", "NJsonSchema\NJsonSchema.csproj", "{7B7A2E32-E808-4A19-98B1-37E766580F8C}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -25,6 +25,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJsonSchema.CodeGeneration.TypeScript", "NJsonSchema.CodeGeneration.TypeScript\NJsonSchema.CodeGeneration.TypeScript.csproj", "{3D8BA0A7-65AF-4328-82DC-8C131D9A9EA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{785552E3-F3BB-4AEB-B5CF-819AE38AEA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NJsonSchema.Net45", "NJsonSchema.Net45\NJsonSchema.Net45.csproj", "{8C45356D-B194-4944-8DD3-1BC62ACF2603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +154,22 @@ Global
 		{3D8BA0A7-65AF-4328-82DC-8C131D9A9EA8}.Release|x64.Build.0 = Release|Any CPU
 		{3D8BA0A7-65AF-4328-82DC-8C131D9A9EA8}.Release|x86.ActiveCfg = Release|Any CPU
 		{3D8BA0A7-65AF-4328-82DC-8C131D9A9EA8}.Release|x86.Build.0 = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|ARM.Build.0 = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|ARM.ActiveCfg = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|ARM.Build.0 = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|x64.Build.0 = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C45356D-B194-4944-8DD3-1BC62ACF2603}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
